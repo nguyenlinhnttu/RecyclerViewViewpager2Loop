@@ -1,4 +1,4 @@
-package com.android.recyclerviewviewpager2loop
+package com.android.recyclerviewviewpager2loop.recyclerview
 
 import android.util.Log
 import androidx.recyclerview.widget.LinearLayoutManager

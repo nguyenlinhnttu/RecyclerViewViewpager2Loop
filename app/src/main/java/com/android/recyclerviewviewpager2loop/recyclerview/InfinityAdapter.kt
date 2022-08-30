@@ -1,14 +1,15 @@
-package com.android.recyclerviewviewpager2loop
+package com.android.recyclerviewviewpager2loop.recyclerview
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.android.recyclerviewviewpager2loop.R
 
 /**
  * Created by NguyenLinh on 30,August,2022
  */
-class InfinityAdapter(var itemClickListener :ItemClickListener) : RecyclerView.Adapter<InfinityAdapter.ViewHolder>() {
+class InfinityAdapter(var itemClickListener : ItemClickListener) : RecyclerView.Adapter<InfinityAdapter.ViewHolder>() {
 
     companion object {
         const val numberItems = 10
